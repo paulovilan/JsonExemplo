@@ -62,8 +62,7 @@ namespace JsonExemplo
             stringBuilder.AppendLine("GIA: " + cepWebService.gia.ToString()); //Separa o CEP
             stringBuilder.AppendLine("DDD: " + cepWebService.ddd.ToString()); //Separa o CEP
             stringBuilder.AppendLine("SIAFI: " + cepWebService.siafi.ToString()); //Separa o CEP
-            rch.Text = stringBuilder.ToString(); //Converte nosso string builder para uma string e popula nosso 
-
+            rch.Text = stringBuilder.ToString(); //Converte nosso string builder para uma string e popula nosso RichTextBox
             return true;
         }
     }

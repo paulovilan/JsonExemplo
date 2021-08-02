@@ -134,7 +134,7 @@ namespace JsonExemplo
             // 
             // txtBox
             // 
-            this.txtBox.Location = new System.Drawing.Point(285, 274);
+            this.txtBox.Location = new System.Drawing.Point(348, 270);
             this.txtBox.Name = "txtBox";
             this.txtBox.Size = new System.Drawing.Size(100, 23);
             this.txtBox.TabIndex = 11;
